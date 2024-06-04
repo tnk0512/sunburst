@@ -12,10 +12,3 @@
 プロジェクトのデモをCodePenで確認できます:
 [CodePenでデモを見る](https://codepen.io/bamboo-ring/pen/vYwxopg)
 
-## 使い方
-
-1. このリポジトリをクローンまたはダウンロードします。
-2. プロジェクトフォルダに移動します。
-3. ローカルサーバーを起動します。Pythonを使用している場合、以下のコマンドで簡単にローカルサーバーを立ち上げられます:
-   ```bash
-   python -m http.server
