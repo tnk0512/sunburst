@@ -10,7 +10,7 @@
 ## デモ
 
 プロジェクトのデモをCodePenで確認できます:
-[CodePenでデモを見る]([https://codepen.io/your-pen-url](https://codepen.io/bamboo-ring/pen/vYwxopg)](https://codepen.io/bamboo-ring/pen/vYwxopg))
+[CodePenでデモを見る](https://codepen.io/bamboo-ring/pen/vYwxopg)
 
 ## 使い方
 
