@@ -29,7 +29,7 @@ var tooltip = d3.select("body").append("div")
     .attr("class", "tooltip");
 
 // Load the external JSON file
-d3.json("dataset/biota.json", function(error, root) {
+d3.json("viruses.json", function(error, root) {
     if (error) throw error;
 
     var nodes = partition.nodes(root);
