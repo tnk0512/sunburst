@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3 Tree Partition with CIELab Colors</title>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/d3-color.v1.min.js"></script>
+<style>
+    .arc text {
+        font: 10px sans-serif;
+        text-anchor: middle;
+    }
+    .arc path {
+        stroke: #fff;
+    }
+    .tooltip {
+        position: absolute;
+        visibility: hidden;
+        background: #fff;
+        border: 1px solid #ccc;
+        padding: 5px;
+        font-size: 12px;
+    }
+    .dimmed {
+        opacity: 0.4;
+    }
+</style>
+<body>
+    <div class="tooltip" style="opacity: 0;"></div>
+    <div id="nodeCount">Nodes displayed: 0</div>
+    <div id="overview" style="position: absolute; top: 10px; right: 10px; width: 250px; height: 250px; border: 1px solid #ccc;"></div>
+    <script src = "viruses.js"></script>
+</body>
+</html>
